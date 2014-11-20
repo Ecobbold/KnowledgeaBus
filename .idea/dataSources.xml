@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3780058624">
+  <component name="DataSourceManagerImpl" format="xml" hash="4058963207">
     <data-source source="LOCAL" name="Rails KnowledgeaBus: development" uuid="8736c32a-69f7-4fff-80d1-5beba7bde44c">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\ecobb_000\Documents\GitHub\KnowledgeaBus\db\development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails KnowledgeaBus: test" uuid="3465829b-9702-4598-80de-f90e97b01c0f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails KnowledgeaBus: production" uuid="6d2aceb6-58cb-4a6d-8794-eafec4dab913">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_production</jdbc-url>
       <libraries />
     </data-source>
   </component>

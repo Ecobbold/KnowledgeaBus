@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails KnowledgeaBus: development" uuid="8736c32a-69f7-4fff-80d1-5beba7bde44c">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails KnowledgeaBus: test" uuid="3465829b-9702-4598-80de-f90e97b01c0f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails KnowledgeaBus: production" uuid="6d2aceb6-58cb-4a6d-8794-eafec4dab913">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
