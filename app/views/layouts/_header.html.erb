@@ -1,15 +1,14 @@
-<header class = "navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+<div class = "navbar navbar-inverse navbar-fixed-top">
+			<div class = "container">
     <%= link_to "ecobbold.me", root_path, id: "logo" %>
-    <nav>
-          <button type="button" class = "navbar-toggle" data-toggle = "collapse" data-target = ".navbar-collapse">
-          <span class = "icon-bar"></span>
-          <span class = "icon-bar"></span>
-          <span class = "icon-bar"></span>
-
-        </button>
-      <div class = "collapse navbar-collapse navHeaderCollapse">
-
+      
+         <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+          </button>
+        
+     <div class = "collapse navbar-collapse navHeaderCollapse">
         <ul class = "nav navbar-nav navbar-right">
           <li><%= link_to "Home",   root_path %></li>
           <li><%= link_to "Help",   help_path %></li>
@@ -19,10 +18,5 @@
 
       </div>
 
-
-
-     </nav>
-
-
-  </div>
-</header>
+    </div>
+ </div>

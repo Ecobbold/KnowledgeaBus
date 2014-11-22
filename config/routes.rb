@@ -9,6 +9,8 @@ Kbus::Application.routes.draw do
   get 'help'    => 'static_pages#help'
   get 'about'   => 'static_pages#about'
   get 'kbus'    => 'static_pages#kbus'
+  get 'signup'  => 'users#new'
+  
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
