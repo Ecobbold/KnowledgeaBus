@@ -230,6 +230,7 @@ DEPENDENCIES
   rails (= 4.2.0.beta4)
   rails-html-sanitizer (= 1.0.1)
   rails_12factor (= 0.0.2)
+  sass (~> 3.4.8)
   sass-rails (= 5.0.0.beta1)
   sdoc (= 0.4.0)
   spring (= 1.1.3)
