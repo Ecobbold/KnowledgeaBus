@@ -1,4 +1,6 @@
 Kbus::Application.routes.draw do
+  get 'sessions/new'
+
   get 'users/new'
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -10,6 +12,9 @@ Kbus::Application.routes.draw do
   get 'about'   => 'static_pages#about'
   get 'kbus'    => 'static_pages#kbus'
   get 'signup'  => 'users#new'
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
   resources :users
   
   # Example of regular route:
