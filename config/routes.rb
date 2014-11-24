@@ -15,6 +15,7 @@ Kbus::Application.routes.draw do
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
+  get 'account'   => 'users#account'
   resources :users
   
   # Example of regular route:
