@@ -15,6 +15,9 @@ gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'rails-html-sanitizer', '1.0.1'
 gem 'sdoc',                 '0.4.0', group: :doc
+gem 'timer',                '~> 0.2'
+gem 'jquery-countdown-rails'
+
 
 
 group :development, :test do
